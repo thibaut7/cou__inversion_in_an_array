@@ -60,3 +60,4 @@ with open("inversion.txt", "r") as fichiertext:
         
 B, n = sortAndCountInv(arr)
 print('number of inversions', n)
+#result:2407905288
