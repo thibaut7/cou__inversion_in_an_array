@@ -27,7 +27,7 @@ def mergeAndCountsplitInv(C, D):
     splitInv = 0
     B = []
     while i < len(C) and j < len(D):
-        if C[i] < D[j]:
+        if C[i] <= D[j]:
            B.append(C[i]) 
            i+=1
         else:
